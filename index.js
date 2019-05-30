@@ -11,13 +11,11 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
- var obj = {
-   itemName : item
-   itemPrice : 
- }
+ var obj = {}
  
  for (let i = 0; i < cart.length; i++) {
-   obj[itemName] = item
+   obj["itemName"] = item
+   obj["itemPrice"] = 
  }
  
 }
