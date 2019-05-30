@@ -17,7 +17,7 @@ function addToCart(item) {
    obj["itemName"] = item
    obj["itemPrice"] = Math.floor(Math.random())
  }
- 
+ return `<${itemName}> has been added to your cart.`
 }
 
 function viewCart() {
