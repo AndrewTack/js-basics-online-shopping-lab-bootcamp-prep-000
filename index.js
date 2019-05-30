@@ -15,7 +15,7 @@ function addToCart(item) {
  
  for (let i = 0; i < cart.length; i++) {
    obj["itemName"] = item
-   obj["itemPrice"] = Math.floor(Math.random())
+   obj["itemPrice"] = Math.floor(Math.random() * 100)
  }
  return `<${itemName}> has been added to your cart.`
 }
