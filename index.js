@@ -11,6 +11,15 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ var obj = {
+   itemName : item
+   itemPrice : 
+ }
+ 
+ for (let i = 0; i < cart.length; i++) {
+   obj[itemName] = item
+ }
+ 
 }
 
 function viewCart() {
